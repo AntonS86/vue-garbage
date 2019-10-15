@@ -1,0 +1,46 @@
+{
+  "cars": [
+    {
+      "name": "Lada",
+      "year": 2018,
+      "id": 1
+    },
+    {
+      "name": "Ford",
+      "year": 2005,
+      "id": 2
+    },
+    {
+      "name": "Mazda",
+      "year": 2005,
+      "id": 3
+    },
+    {
+      "name": "lada",
+      "year": 2005,
+      "resource": null,
+      "id": 4
+    },
+    {
+      "name": "lada",
+      "year": 2005,
+      "resource": null,
+      "id": 5
+    },
+    {
+      "name": "adad",
+      "year": 2018,
+      "id": 6
+    },
+    {
+      "name": "sdfsf",
+      "year": 2018,
+      "id": 7
+    },
+    {
+      "name": "mers",
+      "year": 2018,
+      "id": 8
+    }
+  ]
+}
