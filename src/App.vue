@@ -42,6 +42,7 @@
     <app-filter></app-filter>
     <app-form></app-form>
     <app-validation></app-validation>
+    <app-animation></app-animation>
   </div>
 </template>
 
@@ -51,6 +52,7 @@
     import User from "./User";
     import News from "./News";
     import Filter from "./Filter";
+    import Animation from "./Animation";
 
 
     export default {
@@ -62,17 +64,18 @@
             }
         },
         components: {
-            appCar    : Car,
-            appCounter: Counter,
-            appUser   : User,
-            appNews   : News,
-            appFilter : Filter
-        },
-        methods   : {
-            changeNameToAudio: function () {
-                this.carName = 'Audi';
-            }
+            appCar      : Car,
+            appCounter  : Counter,
+            appUser     : User,
+            appNews     : News,
+            appFilter   : Filter,
+            appAnimation: Animation,
+    },
+    methods   : {
+        changeNameToAudio: function () {
+            this.carName = 'Audi';
         }
+    }
     }
 </script>
 

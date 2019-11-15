@@ -47,9 +47,6 @@
         </button>
       </div>
     </form>
-    <pre>
-      {{$v}}
-    </pre>
   </div>
 </template>
 
